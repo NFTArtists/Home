@@ -1,9 +1,10 @@
 ---
-title: PAGE TITLE HERE
+title: Homepage
 layout: template
 filename: index.md
 --- 
 
-#help
+i am very confused 
+# also this
 
 
