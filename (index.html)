@@ -4,15 +4,6 @@ layout: template
 filename: index.html
 --- 
 
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link href="Style.css" text="text/css" rel="stylesheet">
-        <script src="myscript.js"></script>
-    </head>
-
 <!-- 1st row verticaly centered text in the square columns -->
 
 <div class="square img_1-1">
@@ -47,9 +38,7 @@ filename: index.html
         <a href="http://jsfiddle.net/webtiki/MpXYr/">Responsive 3x3 square grid</a></p> 
     <a href="http://stackoverflow.com/users/1811992/web-tiki">web-tiki</a>
 </div>
-    <body>
-        Hello World!
-            </body>
+
 
 
 
