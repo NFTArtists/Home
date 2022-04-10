@@ -5,12 +5,12 @@ body {
   padding: 0;
 }
 div {
-  height: 25vw;
-  width: 25vw;
+  height: 12;
+  width: 12;
   background: tomato;
   display: inline-block;
   text-align: center;
-  line-height: 25vw;
+  line-height: 12;
   font-size: 20vw;
   margin-right: -4px;
   position: relative;
