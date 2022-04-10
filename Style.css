@@ -22,8 +22,8 @@ div:before {
   position: absolute;
   top: 0;
   left: 0;
-  height: inherit;
-  width: inherit;
+  height: 50;
+  width: 50;
   background: rgba(200, 200, 200, 0.6);
   transition: all 0.4s;
 }
