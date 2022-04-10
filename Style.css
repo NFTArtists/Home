@@ -1,9 +1,9 @@
 .square {
     float:left;
     position: relative;
-    width: 30%;
-    padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-    margin:1.66%;
+    width: 9%;
+    padding-bottom : 9%; /* = width for a 1:1 aspect ratio */
+    margin: 1%;
     background-position:center center;
     background-repeat:no-repeat;
     background-size:cover; /* you change this to "contain" if you don't want the images to be cropped */
@@ -12,11 +12,33 @@
 .img_1-1{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_1-2{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_1-3{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-4{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-5{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-6{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-7{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-8{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-9{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_1-10{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+
 
 .img_2-1{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_2-2{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_2-3{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-4{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-5{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-6{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-7{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-8{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-9{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_2-10{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 
 .img_3-1{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_3-2{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
 .img_3-3{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-4{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-5{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-6{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-7{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-8{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-9{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
+.img_3-10{background-image:url('https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt');}
