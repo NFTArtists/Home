@@ -1,25 +1,26 @@
 .grid {
-	 display: grid;
-	 grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-	 grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
 }
- .grid > div {
-	 background: black;
-	 padding: 1rem;
-	 display: grid;
-	 place-items: center;
+.grid > div {
+  background: black;
+  padding: 1rem;
+  position: relative;
 }
- .grid > div::before {
-	 content: "";
-	 display: block;
-	 padding-bottom: 100%;
-	 grid-area: 0.25;
+.grid > div::before {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
 }
- .grid > div img {
-	 width: 100%;
-	 grid-area: 0.25;
+.grid > div img {
+  position: absolute;
+  max-width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
- body {
-	 margin: 2rem;
+
+body {
+  margin: 2rem;
 }
- 
