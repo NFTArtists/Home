@@ -1,12 +1,12 @@
     $(document).ready(function(){
 
-          $('div#sponsors').each(function(){
+          $('div grid').each(function(){
 
                 // get current div
                 var $div_parent = $(this);
 
                 // get array of childs in parent div
-                var $divsArr = $div_parent.children('div.single-sponsor');
+                var $divsArr = $div_parent.children('div.g');
 
                 // sort array of childs in parent div (#sponsors) randomly
                 $divsArr.sort(function(a,b){
