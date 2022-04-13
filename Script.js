@@ -1,13 +1,18 @@
+$.fn.gridChildren = function() {
+  $.each(this.get(), function(index, el) {
+    var $el = $(el);
+    var $find = $el.children();
 
-var cards = $(".grid");
+    $find.sort(function() {
+      return 0.5 - Math.random();
+    });
 
-for(var i = 0; i < cards.length; i++){
+    $el.empty();
+    $find.appendTo($el);
+  });
+};
 
-    var target = Math.floor(Math.random() * cards.length -1) + 1;
-
-    var target2 = Math.floor(Math.random() * cards.length -1) +1;
-
-    cards.eq(target).before(cards.eq(target2));
-
-}
-
+$("#grid").click(function() {
+  // Usage
+  $(".grid").shuffleChildren();
+});
