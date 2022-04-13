@@ -1,18 +1,16 @@
-$.fn.shuffleChildren = function() {
-  $.each(this.get(), function(index, el) {
-    var $el = $(el);
-    var $find = $el.children();
+var $cont = $('#content'),
+  itemsArr = $cont.children().get();
 
-    $find.sort(function() {
-      return 0.5 - Math.random();
-    });
 
-    $el.empty();
-    $find.appendTo($el);
-  });
-};
+$cont.append(shuffle(itemsArr))
 
-$("#grid").click(function() {
-  // Usage
-  $(".grid").shuffleChildren();
-});
+function shuffle(a) {
+    var j, x, i;
+    for (i = a.length; i; i--) {
+        j = Math.floor(Math.random() * i);
+        x = a[i - 1];
+        a[i - 1] = a[j];
+        a[j] = x;
+    }
+    return a;
+}
