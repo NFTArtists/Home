@@ -1,3 +1,5 @@
+<script>
+
 var $cont = $('#content'),
   itemsArr = $cont.children().get();
 
@@ -14,3 +16,6 @@ function shuffle(a) {
     }
     return a;
 }
+
+</script>
+
