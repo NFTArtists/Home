@@ -1,4 +1,4 @@
-$.fn.gridChildren = function() {
+$.fn.shuffleChildren = function() {
   $.each(this.get(), function(index, el) {
     var $el = $(el);
     var $find = $el.children();
