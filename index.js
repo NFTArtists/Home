@@ -1,7 +1,7 @@
 <script>
 
-var jQuery cont = jQuery('#content'),
-  itemsArr = jQuery cont.children().get();
+var $cont = jQuery('#content'),
+  itemsArr = $cont.children().get();
 
 
 $cont.append(shuffle(itemsArr))
@@ -16,6 +16,5 @@ function shuffle(a) {
     }
     return a;
 }
-
 </script>
 
