@@ -6,15 +6,14 @@ var $cont = $('#content'),
 
 $cont.append(shuffle(itemsArr))
 
-function shuffle(B) {
-    var j, x, i;
-    for (i = B.length; i; i--) {
-        j = Math.floor(Math.random() * i);
-        x = B[i - 1];
-        B[i - 1] = B[j];
-        B[j] = x;
+
+
+function shuffle(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
-    return B;
+  return array;
 }
 
 </script>
