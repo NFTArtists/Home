@@ -10,33 +10,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
     <script src="index.js" type="text/javascript"></script>
 
-	  
-	 	<script type="text/javascript">
-
-				var $cont = jQuery('#content'),
- 				 itemsArr = $cont.children().get();
-
-
-				$cont.append(shuffle(itemsArr))
-
-				function shuffle(a) {
-  				  var j, x, i;
-   				 for (i = a.length; i; i--) {
-        				j = Math.floor(Math.random() * i);
-       				 x = a[i - 1];
-       				 a[i - 1] = a[j];
-       				 a[j] = x;
-    				}
-    				return a;
-				}
-		</script>
-	  
-	try { shuffle()
-	  } catch (error) {
-  console.error(error);
-  // expected output: ReferenceError: nonExistentFunction is not defined
-  // Note - error messages will vary depending on browser
-}
   </head>
 
   <body>
