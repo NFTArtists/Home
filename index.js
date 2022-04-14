@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 var $cont = $('#content'),
   itemsArr = $cont.children().get();
 
@@ -15,5 +13,3 @@ function shuffle(array) {
     }
   return (array);
 }
-
-</script>
