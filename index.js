@@ -11,7 +11,7 @@ function shuffle(B) {
     for (i = B.length; i; i--) {
         j = Math.floor(Math.random() * i);
         x = B[i - 1];
-        B[i - 1] = a[j];
+        B[i - 1] = B[j];
         B[j] = x;
     }
     return B;
