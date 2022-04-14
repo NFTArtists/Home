@@ -31,10 +31,17 @@
 				}
 		</script>
 	  
-	  
+	try { shuffle()
+	  } catch (error) {
+  console.error(error);
+  // expected output: ReferenceError: nonExistentFunction is not defined
+  // Note - error messages will vary depending on browser
+}
   </head>
 
-  <body onload="shuffle()">
+  <body>
+	  
+	 
 
   <div class="grid" id=content>
   <!-- 0001 --> <div><img src="https://dweb.link/ipfs/QmNfz5mmMs5yhk9SQubuBkuxi467uPLxwE43eQGBGi2JZt" alt=""></div>
