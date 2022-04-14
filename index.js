@@ -1,4 +1,6 @@
-var $cont = jQuery('#content'),
+<script type="text/javascript">
+
+var $cont = $('#content'),
   itemsArr = $cont.children().get();
 
 
@@ -14,3 +16,5 @@ function shuffle(a) {
     }
     return a;
 }
+
+</script>
