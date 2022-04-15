@@ -1,4 +1,4 @@
-var $cont = $('#content'),
+var $cont = $('#contents'),
   itemsArr = $cont.children().get();
 
 
