@@ -1,3 +1,5 @@
+window.onload = function () {
+
 var $cont = $('#contents'),
   itemsArr = $cont.children().get();
 
@@ -11,4 +13,5 @@ function shuffle(array) {
       
     }
   return (array);
+}
 }
