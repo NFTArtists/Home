@@ -92,3 +92,16 @@ p{
        	              -16px 16px 2px rgba(0,0,0,0.7);
          }
        }
+
+
+
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
