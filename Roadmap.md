@@ -1,6 +1,6 @@
 <article class="markdown-body">
   
-# NFT-Art.ist Mannequines
+# NFT-Art.ist Mannequins
 
 Hi! This is where you get your space on **NFT-Art.ist**. If you want to get your exclusive space to link directly to your profiles, projects personal accounts.
 
