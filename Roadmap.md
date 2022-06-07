@@ -1,3 +1,5 @@
+<article class="markdown-body">
+  
 # NFT-Art.ist Mannequins
 
 Hi! This is where you get your space on **NFT-Art.ist**. If you want to get your exclusive space to link directly to your profiles, projects personal accounts.
@@ -46,3 +48,5 @@ D-->Splitter -- Accessory --> A
 ## Right now
 
 Get your PFP Mannequin and look out, follow twitter, Instagram and join the discord for updates on when and how to get your personalised space on the website and all future aspects of the project.
+
+  </article>
