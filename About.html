@@ -1,6 +1,25 @@
 
 <!DOCTYPE html>
 <html>
+<style>
+    .float-right {
+            float: right; 
+            clear: right;
+            margin-left: 10px; 
+            margin-bottom: 5px;
+            border: solid black 1px; 
+            padding: 1px;
+    }
+
+    .float-left {
+            float: left; 
+            clear: left;
+            margin-right: 10px; 
+            margin-bottom: 5px;
+            border: solid black 1px; 
+            padding: 1px;
+    }
+    </style>
 <head>
     <link type="text/css" rel="stylesheet" href="Style.css"/>
     <script   src="https://code.jquery.com/jquery-3.6.0.min.js"   integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="   crossorigin="anonymous"></script>
@@ -18,5 +37,20 @@
 </script>
 
   </head>
+<body>
 
+<img src="Picture.png" width="240" height="240"
+    alt="A Picture" title="This gets shown on hover."
+   class="float-right"
+
+<p>
+Words will appear next to the picture
+</p>
+
+<p>
+Broken up around the picture
+</p>
+
+
+    </body>
 </html>
