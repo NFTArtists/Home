@@ -25,3 +25,8 @@ function myFunction() {
     x.style.display = "none";
   }
 }
+
+
+function refreshPage(){
+    window.location.reload();
+} 
